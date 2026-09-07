@@ -1,0 +1,36 @@
+═══════════════════════════════════════════════════════════
+         FINAL STEP - Add Database Column (30 seconds)
+═══════════════════════════════════════════════════════════
+
+1. Open your browser
+
+2. Go to: http://localhost:8000/add-column.php
+
+3. You should see: "SUCCESS: Column added!"
+
+4. Done! Now test adding a course with a lecturer name
+
+═══════════════════════════════════════════════════════════
+                    WHAT'S FIXED NOW
+═══════════════════════════════════════════════════════════
+
+✅ All placeholders removed (empty inputs)
+✅ Lecturer field now accepts TEXT (type names)
+✅ Lecturer names will save and display correctly
+✅ Edit modal also uses text input
+✅ Everything else works as before
+
+═══════════════════════════════════════════════════════════
+                  AFTER RUNNING THE SCRIPT
+═══════════════════════════════════════════════════════════
+
+Try this:
+1. Go to intake dashboard
+2. Click "Add Course"
+3. Fill in:
+   - Course Code: TEST123
+   - Course Name: Test Course  
+   - Lecturer: John Doe ← Type a name here!
+4. Submit
+
+Result: Course will show with "John Doe" as lecturer! ✅

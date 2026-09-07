@@ -1,0 +1,19 @@
+==========================================
+QUICK DATABASE UPDATE - COPY & PASTE THIS
+==========================================
+
+Step 1: Open phpMyAdmin (http://localhost/phpmyadmin)
+Step 2: Click on database "unisiraj_attendance"
+Step 3: Click "SQL" tab
+Step 4: Copy and paste this SQL:
+
+ALTER TABLE courses ADD COLUMN lecturer_name VARCHAR(255) NULL AFTER lecturer_id;
+
+Step 5: Click "Go"
+Step 6: Done! Refresh your intake dashboard page
+
+==========================================
+THAT'S IT!
+==========================================
+
+Now when you add a course with a lecturer name, it will save and display correctly!

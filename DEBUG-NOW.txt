@@ -1,0 +1,98 @@
+╔══════════════════════════════════════════════════════════════╗
+║           DEBUG: Course Not Adding - Find the Error         ║
+╚══════════════════════════════════════════════════════════════╝
+
+STEP 1: Run the error checker
+────────────────────────────────────────────────────────────────
+Open your browser and go to:
+
+    http://localhost:8000/check-errors.php
+
+This will show you:
+- ✅ If database connection works
+- ✅ If lecturer_name column exists
+- ✅ If course creation works
+- ✅ Any PHP errors that occurred
+
+╔══════════════════════════════════════════════════════════════╗
+║                   What to Look For                           ║
+╚══════════════════════════════════════════════════════════════╝
+
+1. Database Connection section:
+   → Should show ✅ Database connection successful
+
+2. Courses Table Columns section:
+   → Should show ✅ lecturer_name in the list
+   → If ❌ lecturer_name column is MISSING:
+      Run: http://localhost:8000/add-lecturer-column.php
+
+3. Test Course Creation section:
+   → Should show ✅ SUCCESS! Course created
+   → If ❌ FAILED: Look at the error message above it
+
+4. Recent PHP Errors section:
+   → Look for RED errors mentioning "course" or "lecturer"
+
+╔══════════════════════════════════════════════════════════════╗
+║                Common Issues & Solutions                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+ISSUE: "Column 'lecturer_name' doesn't exist"
+FIX: Run http://localhost:8000/add-lecturer-column.php
+
+ISSUE: "Access denied for user"
+FIX: Check database.php - password might be wrong
+
+ISSUE: "Table 'courses' doesn't exist"
+FIX: Import database/schema.sql into MySQL
+
+ISSUE: No error shown, but course doesn't appear
+FIX: Check if flash messages are working
+     - Look for success/error message on page
+
+╔══════════════════════════════════════════════════════════════╗
+║                    After Running Checker                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+1. Take note of any RED errors shown
+
+2. If "Test Course Creation" shows SUCCESS:
+   → The database is working!
+   → Problem might be in the form submission or display
+
+3. If it shows FAILED:
+   → Copy the error message
+   → That's the root cause
+
+4. Try adding a course again from the intake dashboard
+
+╔══════════════════════════════════════════════════════════════╗
+║                       Quick Test                             ║
+╚══════════════════════════════════════════════════════════════╝
+
+After checking errors, try this:
+
+1. Go to intake dashboard
+2. Click "Add Course"
+3. Fill ONLY required fields:
+   - Course Code: TEST123
+   - Course Name: Test Course
+   (Leave everything else empty)
+4. Click "Add Course"
+5. Look for message at top of page
+
+What message do you see?
+→ "Course added successfully" = Working! ✅
+→ "Failed to add course" = Check logs
+→ No message = Flash messages not working
+
+╔══════════════════════════════════════════════════════════════╗
+║                        Need Help?                            ║
+╚══════════════════════════════════════════════════════════════╝
+
+After running check-errors.php, tell me:
+1. What the "Test Course Creation" section shows
+2. Any RED error messages you see
+3. Whether lecturer_name column exists or not
+
+This will help me fix the exact issue!

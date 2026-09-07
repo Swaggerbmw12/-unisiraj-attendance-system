@@ -1,0 +1,68 @@
+# UniSIRAJ Attendance System - Git Ignore
+
+# Sensitive Configuration Files (DO NOT COMMIT)
+config/database.php
+config/config.php
+
+# Logs
+storage/logs/*.log
+storage/logs/*.txt
+*.log
+
+# Uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# QR Codes (Generated dynamically)
+public/assets/qr-codes/*
+!public/assets/qr-codes/.gitkeep
+storage/qr-codes/*
+!storage/qr-codes/.gitkeep
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Composer
+vendor/
+composer.lock
+
+# NPM
+node_modules/
+package-lock.json
+yarn.lock
+
+# Database backups
+*.sql.backup
+*.sql.gz
+backups/
+
+# Test files
+test-*.php
+debug-*.php
+*-old.php
+*-backup.php
+
+# Cache
+cache/
+*.cache
