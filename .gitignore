@@ -1,68 +1,48 @@
-# UniSIRAJ Attendance System - Git Ignore
-
-# Sensitive Configuration Files (DO NOT COMMIT)
-config/database.php
-config/config.php
-
-# Logs
-storage/logs/*.log
-storage/logs/*.txt
+# PHP
 *.log
+*.cache
 
-# Uploads
-storage/uploads/*
-!storage/uploads/.gitkeep
+# Database credentials (IMPORTANT: Never commit these!)
+config/database.php
 
-# QR Codes (Generated dynamically)
-public/assets/qr-codes/*
-!public/assets/qr-codes/.gitkeep
-storage/qr-codes/*
-!storage/qr-codes/.gitkeep
-
-# OS Files
-.DS_Store
-Thumbs.db
-desktop.ini
-*.bak
-
-# IDE Files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Temporary files
-*.tmp
-*.temp
-*.swp
-*.swo
-*~
-
-# Environment
+# Environment files
 .env
 .env.local
 .env.production
 
-# Composer
-vendor/
-composer.lock
+# QR Code generated files
+public/assets/qr-codes/*.png
+public/assets/qr-codes/*.jpg
+!public/assets/qr-codes/.gitkeep
 
-# NPM
-node_modules/
-package-lock.json
-yarn.lock
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Database backups
-*.sql.backup
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
 *.sql.gz
-backups/
+
+# Node modules (if any)
+node_modules/
+
+# Composer vendor (if using Composer)
+vendor/
 
 # Test files
 test-*.php
-debug-*.php
-*-old.php
-*-backup.php
-
-# Cache
-cache/
-*.cache
+*-test.php
