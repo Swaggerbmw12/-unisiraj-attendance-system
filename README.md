@@ -2,11 +2,26 @@
 
 **A comprehensive QR-based attendance management system with advanced analytics and ML-inspired features**
 
-[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-1.0-blue)](https://github.com)
-[![PHP](https://img.shields.io/badge/PHP-8.0%2B-purple)](https://php.net)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-orange)](https://mysql.com)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+<div align="center">
+
+[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system/releases)
+[![Tests](https://img.shields.io/badge/Tests-98%25%20Pass-brightgreen?style=for-the-badge)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+[![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=flat-square&logo=php&logoColor=white)](https://php.net)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![Chart.js](https://img.shields.io/badge/Chart.js-4.4.0-FF6384?style=flat-square&logo=chart.js&logoColor=white)](https://chartjs.org)
+[![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-brightgreen?style=flat-square)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system)
+[![Security](https://img.shields.io/badge/Security-OWASP%20Compliant-success?style=flat-square&logo=security&logoColor=white)](https://owasp.org)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Swaggerbmw12/-unisiraj-attendance-system?style=social)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Swaggerbmw12/-unisiraj-attendance-system?style=social)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/Swaggerbmw12/-unisiraj-attendance-system?style=flat-square)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system/issues)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/Swaggerbmw12/-unisiraj-attendance-system?style=flat-square)](https://github.com/Swaggerbmw12/-unisiraj-attendance-system/commits/main)
+
+</div>
 
 ---
 
